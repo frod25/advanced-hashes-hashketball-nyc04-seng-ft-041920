@@ -202,7 +202,7 @@ def big_shoe_rebounds
         value.each do |player|
           if player[:shoe] >= shoe
             shoe = player[:shoe]
-            binding.pry
+            
           end
         end     
       end
