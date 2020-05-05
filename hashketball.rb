@@ -200,7 +200,7 @@ def big_shoe_rebounds
     info.each do |key, value|
       if key == :players
         value.each do |player|
-          if player[:shoe] > shoe
+          if player[:shoe] >= shoe
             rebounds = player[:rebounds]
           end
         end     
