@@ -182,6 +182,7 @@ def player_numbers(team_name)
       v.each do |k1, v1|
         players << k1[:number]
       end
+      binding.pry
     end
     binding.pry
   end
