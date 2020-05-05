@@ -198,9 +198,9 @@ def big_shoe_rebounds
   game.each do |location, value|
     value.each do |key, value|
       if key == :players
-        value.each do |stat , val|
-          binding.pry    
-        end      
+        binding.pry
+   
+             
       end
     end
   end
