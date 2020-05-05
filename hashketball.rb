@@ -180,7 +180,6 @@ def player_numbers(team_name)
   team_hash.each do |k, v|
     if k == :players
       v.each do |k1, v1|
-        binding.pry
         players << k1[:number]
       end
     end
