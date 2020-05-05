@@ -183,6 +183,7 @@ def player_numbers(team_name)
         players << k1[:number]
       end
     end
+    binding.pry
   end
 end
 
