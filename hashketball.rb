@@ -183,10 +183,9 @@ def player_numbers(team_name)
         binding.pry
         players << k1[:number]
       end
-      binding.pry
     end
-    binding.pry
   end
+  players
 end
 
 player_numbers("Brooklyn Nets")
