@@ -1,5 +1,3 @@
-require 'pry'
-
 def game_hash
   {
     home: {
@@ -203,7 +201,6 @@ def big_shoe_rebounds
           if player[:shoe] > shoe
             shoe = player[:shoe]
             rebounds = player[:rebounds]
-            
           end
         end     
       end
@@ -211,6 +208,3 @@ def big_shoe_rebounds
   end
   rebounds
 end
-
-big_shoe_rebounds
-
