@@ -181,9 +181,7 @@ def player_numbers(team_name)
     if k == :players
       v.each do |k1, v1|
         players << k1[:number]
-        binding.pry
       end
-      binding.pry
     end
   end
 end
