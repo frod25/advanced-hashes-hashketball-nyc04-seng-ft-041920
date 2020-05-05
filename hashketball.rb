@@ -187,4 +187,8 @@ def player_numbers(team_name)
   players
 end
 
+def player_stats(player_name)
+  get_player_hash(player_name)
+end
+
 #player_numbers("Brooklyn Nets")
