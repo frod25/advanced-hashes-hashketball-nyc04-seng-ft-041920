@@ -191,4 +191,19 @@ def player_stats(player_name)
   get_player_hash(player_name)
 end
 
-#player_numbers("Brooklyn Nets")
+def big_shoe_rebounds
+  rebounds = 0
+  game = game_hash
+  
+  game.each do |location, value|
+    value.each do |key, value|
+      if key == :players
+        value.each do |stat , val|
+          binding.pry    
+        end      
+      end
+    end
+  end
+end
+
+big_shoe_rebounds
